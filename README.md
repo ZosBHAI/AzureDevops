@@ -47,3 +47,6 @@
  - if you delete a pipeline , it will not be reflected in the ADF Live environment.
  - if you have a active trigger, it  will be in Stopped state.
 8. Solution to above problem is to handle this in POST and PRE deployment script.
+### Demo on ADF CI CD ,Automated Publishing using NPM package,Classic build and Release pipeline
+#### What are we trying to achieve?
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
