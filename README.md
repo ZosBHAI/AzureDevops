@@ -1,5 +1,4 @@
-# CICD implementation for ADF Notes (In progress)
-
+# CICD implementation for ADF Notes 
 ### Summary of steps in configuring  CI-CD for ADF
 [Reference](https://bulletbyte.weebly.com/tech/how-to-set-up-cicd-for-azure-data-factory-using-azure-devops)
 1. Choose  Default directory
