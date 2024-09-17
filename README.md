@@ -47,6 +47,11 @@
  - if you delete a pipeline , it will not be reflected in the ADF Live environment.
  - if you have a active trigger, it  will be in Stopped state.
 8. Solution to above problem is to handle this in POST and PRE deployment script.
+9. From Azure ADF UI , we can not disable PUBLISH icon. But you can restrict user access by not publishing to the data factory. [Reference](https://learn.microsoft.com/en-us/answers/questions/925491/how-to-disable-publishing-the-production-data-fact)
+
 ### Demo on ADF CI CD ,Automated Publishing using NPM package,Classic build and Release pipeline
 #### What are we trying to achieve?
 ![Architecture](https://github.com/ZosBHAI/AzureDevops/blob/main/images/Azure_devops.drawio.png)
+### Other Links
+1. Sample Pre and Post deployment script [link](https://learn.microsoft.com/en-us/azure/data-factory/continuous-integration-delivery-sample-script)
+2. Add more parameters or custom parameters to the ARM template [link](https://learn.microsoft.com/en-us/azure/data-factory/continuous-integration-delivery-resource-manager-custom-parameters)
