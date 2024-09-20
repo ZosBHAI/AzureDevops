@@ -54,3 +54,7 @@
 ### Other Links
 1. Sample Pre and Post deployment script [link](https://learn.microsoft.com/en-us/azure/data-factory/continuous-integration-delivery-sample-script)
 2. Add more parameters or custom parameters to the ARM template [link](https://learn.microsoft.com/en-us/azure/data-factory/continuous-integration-delivery-resource-manager-custom-parameters)
+### Production Consideration
+1. Usage of code analyzer tools like Fortify to ensure compliance with client-specific standards. These tools can detect issues such as hardcoded credentials in datasets or linked services, helping to maintain security best practices.
+2. Archiving builds using tools like JFrog Artifactory.
+3. Controlled Deployment to Production, by a implement approval gates that require necessary approvals before triggering the release stage for production.Or,having a automated CI/CD flow till lower environment and then use MANUAL trigger to promote changes into Production.
